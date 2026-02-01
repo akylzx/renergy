@@ -3,7 +3,7 @@ import ee
 
 def init_gee():
     try:
-        ee.Initialize(project = "shoqaneco")
+        ee.Initialize(project = "")
     except Exception:
         ee.Authenticate()
         ee.Initialize()
