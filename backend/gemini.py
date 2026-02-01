@@ -1,6 +1,6 @@
 from google import genai
 
-client = genai.Client(api_key = "AIzaSyCYu1ulr3pbvaeE62MvJCT1rtRtpKrtWy0")
+client = genai.Client(api_key = "")
 
 def parse_requirements(query: str) -> dict:
     response = client.models.generate_content(
